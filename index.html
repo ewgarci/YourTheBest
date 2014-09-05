@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Your the Best!</title>
+		<style>*{cursor:none}body,html{height:100%}body{overflow:hidden;-webkit-transition:background .25s}iframe,audio{position:absolute;left:-999em;top:-999em}img{display:none;position:absolute;pointer-events:none}.sharing.is.caring{position:fixed;z-index:9999999;left:50px;bottom:50px;width:400px;cursor:default}.sharing.is.caring iframe,.sharing.is.caring div{position:static;float:left}</style>
+	</head>
+	
+	<body>
+		<img src="h-blue.png" class="bill">
+		
+		
+		<script src="//code.jquery.com/jquery-latest.min.js"></script>
+		<script>
+			var q,u,a,c,k;
+			
+			function x(){return Math.floor(Math.random()*255)}q=$(".bill");u=['<iframe src="///www.youtube.com/embed/TjcOJmoJwpk?rel=0&autoplay=1"></iframe>'];a="aaayyy";c=$("body");k=["ducks quack me up","what do you call a theiving duck? a robber duck","duck jokes are fowl","they should have ducktors instead of vets"];c.append(u[Math.floor(Math.random()*u.length)]);document.title=k[Math.floor(Math.random()*k.length)].toUpperCase();$(this).bind("touchstart touchmove mousemove",function(e){e.preventDefault();if(e.originalEvent.touches){e=e.originalEvent.touches[0]||e.originalEvent.changedTouches[0]}q.show().css({left:e.pageX,top:e.pageY});/*mixpanel.track("moved", {left:e.pageX,top:e.pageY});*/c.append('<img src="h-blue.png" style="display: block; left: '+(e.pageX+Math.random()*10)+"px; top: "+(e.pageY+Math.random()*10)+'px">')});setInterval(function(){c.css("background","rgb("+x()+","+x()+","+x()+")")},400);var GoSquared={};GoSquared.acct="GSN-947162-E";(function(e){function t(){e._gstc_lt=+(new Date);var t=document,n=t.createElement("script");n.type="text/javascript";n.src="//d1l6p2sc9645hc.cloudfront.net/tracker.js";var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(n,r)}e.addEventListener?e.addEventListener("load",t,false):e.attachEvent("onload",t)})(window);
+		</script>
+		
+	</body>
+</html>
